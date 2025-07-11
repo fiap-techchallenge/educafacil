@@ -1,0 +1,12 @@
+// Export all custom components for easy importing
+export { CustomButton } from "./button"
+export { CustomCard, CustomCardContent, CustomCardDescription, CustomCardHeader, CustomCardTitle } from "./card"
+export { CustomInput, CustomLabel } from "./input"
+export { CustomAvatar, CustomAvatarFallback, CustomAvatarImage } from "./avatar"
+export { CustomBadge } from "./badge"
+export { CustomSwitch } from "./switch"
+export { CustomTabs, CustomTabsContent, CustomTabsList, CustomTabsTrigger } from "./tabs"
+export { CustomModal, CustomModalContent, CustomModalDescription, CustomModalHeader, CustomModalTitle } from "./modal"
+export { CustomAlert, CustomAlertDescription } from "./alert"
+export { CustomSelect } from "./select"
+export { CustomSeparator } from "./separator"
