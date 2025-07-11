@@ -4,14 +4,14 @@
 
 Este projeto segue a metodologia de Atomic Design para organização de componentes, utilizando o shadcn/ui como base:
 
-### � Componentes Base (`/components/ui/`)
+### Componentes Base (`/components/ui/`)
 
 Componentes base do shadcn/ui que fornecem a fundação do sistema de design:
 
 - Botões, campos, diálogos, menus e outros elementos básicos
 - Baseados na biblioteca Radix UI para acessibilidade e interatividade
 
-### �🔬 Átomos (`/components/atoms/`)
+### 🔬 Átomos (`/components/atoms/`)
 
 Blocos básicos de construção da interface, personalizados a partir dos componentes base:
 
@@ -138,17 +138,17 @@ Instâncias específicas de templates com conteúdo real:
 
 ### Estrutura de Importação
 
-\`\`\`tsx
+```tsx
 // Padrão de importação preferido
-import { Button } from "@/components/atoms/button"
-import { FormField } from "@/components/molecules/form-field"
-import { TopNavigation } from "@/components/organisms/top-navigation"
-import { MainLayout } from "@/components/templates/main-layout"
-\`\`\`
+import { Button } from "@/components/atoms/button";
+import { FormField } from "@/components/molecules/form-field";
+import { TopNavigation } from "@/components/organisms/top-navigation";
+import { MainLayout } from "@/components/templates/main-layout";
+```
 
 ### Organização de Arquivos
 
-\`\`\`
+```
 components/
 ├── ui/ # Componentes base shadcn/ui
 │ ├── button.tsx
@@ -167,7 +167,7 @@ components/
 ├── organisms/
 ├── templates/
 └── index.ts
-\`\`\`
+```
 
 ## Login de Demonstração
 
@@ -178,7 +178,7 @@ Para acessar a demonstração do sistema, use as seguintes credenciais:
 
 ## Primeiros Passos
 
-\`\`\`bash
+```bash
 
 # Instalar dependências
 
@@ -203,7 +203,7 @@ npm run build
 # ou
 
 pnpm build
-\`\`\`
+```
 
 ## Gerenciamento de Temas
 
